@@ -1,6 +1,7 @@
 package config
 
 import (
+	"github.com/goravel/fiber"
 	"github.com/goravel/framework/auth"
 	"github.com/goravel/framework/cache"
 	"github.com/goravel/framework/console"
@@ -119,6 +120,7 @@ func init() {
 			&providers.ValidationServiceProvider{},
 			&providers.DatabaseServiceProvider{},
 			&gin.ServiceProvider{},
+			&fiber.ServiceProvider{},
 		},
 	})
 }
