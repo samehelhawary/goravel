@@ -44,7 +44,11 @@ func init() {
 				},
 				// Optional, default is "html/template"
 				"template": func() (fiber.Views, error) {
-					return jet.New("./resources/views", ".jet"), nil
+					jetTemplate := jet.New("./resources/views", ".jet")
+					jetTemplate.Engine.AddFunc("customFunction", func() string {
+						return "new customFunc"
+					})
+					return jetTemplate, nil
 				},
 			},
 		},

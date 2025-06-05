@@ -6,6 +6,9 @@ toolchain go1.23.3
 
 require (
 	github.com/gin-gonic/gin v1.10.0
+	github.com/gofiber/fiber/v2 v2.52.6
+	github.com/gofiber/template/jet/v2 v2.1.12
+	github.com/goravel/fiber v1.3.6
 	github.com/goravel/framework v1.15.8
 	github.com/goravel/gin v1.3.3
 	github.com/stretchr/testify v1.10.0
@@ -72,10 +75,8 @@ require (
 	github.com/go-sql-driver/mysql v1.8.1 // indirect
 	github.com/go-viper/mapstructure/v2 v2.2.1 // indirect
 	github.com/goccy/go-json v0.10.4 // indirect
-	github.com/gofiber/fiber/v2 v2.52.6 // indirect
 	github.com/gofiber/template v1.8.3 // indirect
 	github.com/gofiber/template/html/v2 v2.1.2 // indirect
-	github.com/gofiber/template/jet/v2 v2.1.12 // indirect
 	github.com/gofiber/utils v1.1.0 // indirect
 	github.com/golang-jwt/jwt/v4 v4.5.1 // indirect
 	github.com/golang-jwt/jwt/v5 v5.2.1 // indirect
@@ -93,7 +94,6 @@ require (
 	github.com/gookit/filter v1.2.2 // indirect
 	github.com/gookit/goutil v0.6.18 // indirect
 	github.com/gookit/validate v1.5.4 // indirect
-	github.com/goravel/fiber v1.3.6 // indirect
 	github.com/goravel/file-rotatelogs/v2 v2.4.2 // indirect
 	github.com/hashicorp/errwrap v1.1.0 // indirect
 	github.com/hashicorp/go-multierror v1.1.1 // indirect
